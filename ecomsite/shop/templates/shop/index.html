@@ -96,7 +96,8 @@
     }
 
     $(document).on('click','.atc',function(){
-        console.log("The add to cart button is clicked")
+        var item_id = this.id.toString();
+        console.log(item_id)
 
     });
 
