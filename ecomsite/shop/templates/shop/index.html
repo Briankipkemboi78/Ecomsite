@@ -88,6 +88,8 @@
 </body>
 
 <script type="text/javascript">
-    console.log('This is working');
+    if(localStorage.getItem('cart')==null){
+        var cart = {};
+    }
 </script>
 </html>
